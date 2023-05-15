@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="../js/nav.js"></script>
+    <script defer src="../js/blog.js"></script>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/blog.css" type="text/css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <title>Sahani</title>
+
+</head>
+<body>
+
+    <header></header>
+
+    <nav>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="../html/me.html">Me</a></li>
+            <li><a class="current" href="../html/blog.html">Blog</a></li>
+            <li><a href="../html/gallery.html">Gallery</a></li>
+            <li><a href="../html/videos.html">Videos</a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1 id="blogtitle" class="center">Blog</h1>
+
+        <div class="container">
+
+            <table>
+                <tr>
+                    <td>
+                        <button class="BlogCards" id="button1" onclick="displayText(1)">
+                            <img class="buttonicon" src="../img/vienna.png" alt="Button 1 Image">
+                            Vienna
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="BlogCards" id="button2" onclick="displayText(2)">
+                            <img class="buttonicon" src="../img/cs.png" alt="Button 1 Image">
+                            Computer Science
+                        </button>
+                    </td>
+                </tr>
+                    <td>
+                        <button class="BlogCards" id="button3" onclick="displayText(3)">
+                            <img class="buttonicon" src="../img/pottery.jpg" alt="Button 1 Image">
+                            Pottery Painting
+                        </button>
+                    </td>
+                <tr>
+                    <td>
+                        <button class="BlogCards" id="button4" onclick="displayText(4)">
+                            <img class="buttonicon" src="../img/bubbletea.png" alt="Button 1 Image">
+                            Bubble Tea Vienna
+                        </button>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="text" class="hidden">
+                <h1 id="title"></h1>
+                <img id="image" src="" alt="">
+                <p id="description"></p>
+                <button id="backButton" onclick="hideText()">&#8592;</button>
+            </div>
+
+    </main>
+
+    
+</body>
+</html>

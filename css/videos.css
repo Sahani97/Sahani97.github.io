@@ -1,0 +1,27 @@
+#scrollableImageView{
+  margin: auto;
+}
+
+.scrollable-image-bar {
+  width: 500px;
+  overflow-x: scroll;
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+}
+
+img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 970px) {
+  .scrollable-image-bar {
+    width: 300px;
+    overflow-x: scroll;
+    display: flex;
+  }
+}
+  

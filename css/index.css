@@ -1,0 +1,22 @@
+#LG{
+    padding-left: 50px;
+}
+
+#sahaniwp{
+    height: 300px;
+    float: right;
+    padding-right: 50px;
+}
+
+
+@media(max-width: 950px) {
+    #sahaniwp{
+        float: right;
+        height: 150px;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+
+}
+

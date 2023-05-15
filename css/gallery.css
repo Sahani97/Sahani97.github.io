@@ -1,0 +1,32 @@
+#table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#whiteinstaicon{
+    float: right;
+    height: 200px;
+}
+
+@media only screen and (max-width: 1492px) {
+    .ig {
+        height: auto;
+        max-width: 100%;
+    }
+
+    #whiteinstaicon{
+        float: right;
+        height: auto;
+        width: 100%;
+        max-width: 100px;
+    }
+
+    #table {
+        width: 100%;
+    }
+}
